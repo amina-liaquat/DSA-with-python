@@ -1,0 +1,22 @@
+List
+
+A list is a built-in data structure in Python used to store multiple elements in a single variable.
+Lists are widely used in many algorithms.
+
+Creating Lists
+Lists are created using square brackets [].
+
+Examples:
+# Empty list
+x = []
+
+# List with numbers
+y = [1, 2, 3, 4, 5]
+
+# List with mixed data types
+z = [1, "hello", 3.14, True]
+
+........................
+
+List Methods
+Python provides built-in methods (algorithms) to perform operations on lists.
