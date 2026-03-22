@@ -20,3 +20,13 @@ z = [1, "hello", 3.14, True]
 
 List Methods
 Python provides built-in methods (algorithms) to perform operations on lists.
+
+Examples:
+
+x = [9, 12, 7, 4, 11]
+
+# Add element
+x.append(8)
+
+# Sort list in ascending order
+x.sort()
