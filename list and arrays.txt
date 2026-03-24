@@ -30,3 +30,25 @@ x.append(8)
 
 # Sort list in ascending order
 x.sort()
+
+..................
+
+
+Create Algorithms
+
+Sometimes we want to perform actions that are not built into Python.
+Then we can create our own algorithms.
+
+For example, an algorithm can be used to find the lowest value in a list, like in the example below:
+
+Example:
+Create an algorithm to find the lowest value in a list:
+
+my_array = [7, 12, 9, 4, 11, 8]
+minVal = my_array[0]
+
+for i in my_array:
+    if i < minVal:
+        minVal = i
+
+print('Lowest value:', minVal)
