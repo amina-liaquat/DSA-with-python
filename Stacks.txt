@@ -1,0 +1,65 @@
+Stacks
+
+Introduction
+
+A stack is a linear data structure that follows the LIFO (Last In, First
+Out) principle.
+The last element added is the first one to be removed.
+
+------------------------------------------------------------------------
+
+Real-Life Example
+
+Think of a stack like a pile of pancakes: - Add pancakes on the top -
+Remove pancakes from the top - The last added pancake is removed first
+
+------------------------------------------------------------------------
+
+Operations
+
+-   Push → Add element to the top
+-   Pop → Remove and return the top element
+-   Peek (Top) → View the top element
+-   isEmpty → Check if stack is empty
+-   Size → Number of elements in stack
+
+------------------------------------------------------------------------
+
+Implementation
+
+Stacks can be implemented using: - Python Lists (Arrays) - Linked Lists
+
+------------------------------------------------------------------------
+
+Applications
+
+-   Undo/Redo functionality
+-   Depth-First Search (DFS)
+-   Backtracking problems
+-   Expression evaluation (parentheses checking)
+
+----------------------------------------------------------------------
+
+Example:
+
+    stack = []
+
+    # Push
+    stack.append(10)
+    stack.append(20)
+    stack.append(30)
+
+    # Peek
+    print("Top element:", stack[-1])
+
+    # Pop
+    print("Removed:", stack.pop())
+
+    # Check if empty
+    print("Is empty:", len(stack) == 0)
+
+    # Size
+    print("Size:", len(stack))
+
+------------------------------------------------------------------------
+
